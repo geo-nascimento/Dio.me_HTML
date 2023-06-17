@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de código: blog de aula</title>
+</head>
+<body>
+    <header>
+        <h1>Blog de Aula: resumo dos assuntos estudados</h1>
+    </header>
+    <hr>
+    <main>
+        <h2>Índice</h2>
+        <ul>
+            <li><strong><a href="#estrutura">Estrura básica do HTML</a></strong></li>
+            <li><strong><a href="#tags">O que são as tags e seus atributos</a></strong></li>
+            <li><strong><a href="#texto">Tags utilizadas em textos</a></strong></li>
+            <li><strong><a href="#listas">Listas: ordenadas e não ordenadas</a></strong></li>
+            <li><strong><a href="#links">Links: como navegar entre páginas</a></strong></li>
+            <li><strong><a href="#referencias">Referências</a></strong></li>
+        </ul>
+        <hr>
+        <h1 id="estrutura">Estrura básica do HTML</h1>
+        <p>
+            O documento HTML possui uma estrutura básica que se repete. Editores de código como o sublime text e o Visual Studio Code possuem atalhos que iniciam essa estutura com rapidez. Essa estrutura é composta pela definição do <strong>tipo de documento</strong> (doctype), <strong>cabeçalho</strong>(head) e <strong>corpo</strong> (body).
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <strong>Definindo o documento - Doctype</strong>
+                    <p>
+                        O doctype não é uma tag HTML, mas uma instrução para o navegador e outros programas que podem ler seu site, que o código encontrado ali é um código HTML. Assim eles sabem o que fazer para mostrar seu site da melhor forma possível. Lembre-se: o doctype é OBRIGATÓRIO e deve ser sempre a PRIMEIRA LINHA do seu documento
+                    </p>
+                </li>
+                <li>
+                    <strong>Head</strong>
+                    <p>
+                        Contém informações que não são transpostas visivelmente para o usuário/leitor do documento. São dados implícitos, de uso e controle do documento: vinculação com outros arquivos, aplicação de lógica de programação de scripts e metadados. Na prática, todo o conteúdo do cabeçalho fica delimitado entre a abertura e fechamento tag head.
+                    </p>
+                </li>
+                <li>
+                    <strong>Body</strong>
+                    <p>
+                        Trata-se do documento em si, ou seja, a informação legível para o usuário/leitor do documento. É todo e qualquer texto que se deseja apresentar, assim como toda e qualquer forma de mídia de saída (imagens, sons, miniaplicativos embutidos, conteúdo multimídia, etc). 
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <hr>
+        <h1 id="#tags">O que são as tags e seus atributos</h1>
+        <p>
+            A tag HTML de conteúdo é uma marca que define o conteúdo de um documento da respectiva linguagem. Ela envolve o texto e os elementos que aparecem no documento. Tecnicamente, elas são usadas para determinar o tipo de conteúdo que será exibido na página
+        </p>
+        <p>
+            Atributos são palavras especiais usadas dentro da tag de abertura para controlar o comportamento do elemento. Atributos HTML são um modificados de um elemento HTML. Há alguns atributos que são globais (aceitos por qualquer tag) como por exemplo: class, id, style. Alguns outros atributos são caracteristicos de algumas tags específicas por exemplo: o atributo type da tag input vai definir o tipo entrada refente aquele input.
+        </p>
+        <hr>
+        <h1 id="texto">Tags utilizadas em textos</h1>
+        <p>
+            O html fornece diversas tags para trabalhar com textos. Abaixo cito alguns exemplos das tags mais importantes para formatação de textos
+        </p>
+        <ul>
+            <li><u>Tags de cabeçalho:</u> para inserir um cabeçalho usamos as tags h de 1 a 6, variando de intensidade (mais intensa h1 e menos intensa h6)</li>
+            <li><u>Tag de parágrafo:</u>  para inserir um parágrafo utilizamos a tag p</li>
+            <li><u>Tags de formatação:</u> são tags utilizadas para modificar o estilo do texto sem precisar acessar o css. As mais utilizadas são a <u>tag u que isere o underline no texto</u>, a <i>tag i que transforma o texto em itálico</i>, a <b>tag b que transforma em negrito, a tag small que reduz o tamanho do texto</b>. A tag strong também transforma a palavra em negrito, mas essa é mais semântica</li>
+        </ul>
+        <hr>
+        <h1 id="listas">Listas: ordenadas e não ordenadas</h1>
+        <p>
+            Existem duas formas de criar listas no html: utilizando os elementos ol e ul
+            <ul>
+                <li>
+                    ol
+                    <p>
+                        O Elemento HTML ol (ou Elemento HTML de lista ordenada) representa uma lista de itens ordenados. De forma característica esses itens ordenados em uma lista são mostrados com uma contagem que os precede
+                    </p>
+                </li>
+                <li>
+                    ul
+                    <p>
+                        O elemento HTML ul (ou elemento HTML de Lista desordenada) representa uma lista de itens sem ordem rígida, isto é, uma coleção de itens que não trazem uma ordenação numérica e as suas posições, nessa lista, são irrelevantes.
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <hr>
+        <h1 id="links">Links: como navegar entre páginas</h1>
+        <p>
+            Para navegar entre páginas utilizamos a tag a. O elemento "a" em HTML (ou elemento âncora), com o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL. O conteúdo dentro de cada "a" precisará indicar o destino do link. O principal atributo dessa tag é o "href" que armazena a URL para qual o hiperlink aponta
+        </p>
+        <hr>
+        <div id="referencias">
+            <h1>Referências</h1>
+            <ol>
+                <li><a href="https://developer.mozilla.org/">Documentação mdn web docs</a></li>
+                <li><a href="http://www.clem.ufba.br/tuts/html/c05.htm">Formatação de Texto em HTML</a></li>
+            </ol>
+        </div>
+    </main>
+</body>
+</html>
